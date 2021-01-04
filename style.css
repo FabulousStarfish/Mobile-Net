@@ -1,0 +1,68 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color:#a2ebe2 ;
+}
+#heading{
+    font-size: 30px;
+    background-color: white;
+}
+#logo{
+    height: 100px;
+}
+.main_div{
+    background-color: white;
+    padding: 10px;
+    border-left: 5px solid #a2ebe2;
+    border-right: 5px solid #a2ebe2;
+
+}
+#camera_div{
+    /*border-left: 7.5px solid #a2ebe2;
+    border-bottom: 7.5px solid #a2ebe2;*/
+    border: 7.5px solid #a2ebe2;
+}
+#result_div{
+    /*border-right: 8px solid #a2ebe2;
+    border-bottom:  7.5px solid #a2ebe2;*/
+    border: 7.5px solid #a2ebe2;
+}
+#camera{
+    height: 300px;
+    width: 350px;
+    border: 1px solid #a2ebe2;
+}
+#result{
+    height: 300px;
+    width: 350px;
+    border: 1px solid #a2ebe2;
+}
+.button{
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    background-color: #a2ebe2;
+    border: none;
+}
+.object_div{
+    background-color: white;
+    border: 7.5px solid #a2ebe2;
+    text-align: left;
+}
+#my_output{
+    background-color: white;
+    font-size: 50px;  
+}
+#bulb{
+    height: 70px;
+}
+#footer_div{
+    bottom: 0;
+    margin:0px;
+    padding: 20px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
